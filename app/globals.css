@@ -62,3 +62,70 @@ body {
   font-size: 0.875rem;
   color: #52525b;
 }
+
+.search-input {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  padding: 0.75rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #d4d4d8;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.empty {
+  color: #71717a;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.detail {
+  max-width: 720px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #52525b;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.detail-art {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.detail h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.detail ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.detail ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
